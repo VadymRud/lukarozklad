@@ -4,5 +4,6 @@ plyer
 arrow
 django
 django-tastypie
+django-rosetta
 git+https://github.com/HeaTTheatR/KivyMD.git
 
