@@ -1,0 +1,8 @@
+kivy
+pyowm
+plyer
+arrow
+django
+django-tastypie
+git+https://github.com/HeaTTheatR/KivyMD.git
+
