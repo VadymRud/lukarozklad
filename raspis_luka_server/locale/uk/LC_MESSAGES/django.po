@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-30 17:46+0200\n"
-"PO-Revision-Date: 2018-11-30 17:46+0000\n"
+"POT-Creation-Date: 2018-12-02 13:43+0200\n"
+"PO-Revision-Date: 2018-12-02 13:46+0000\n"
 "Last-Translator: b'  <helm2004@mail.ru>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -19,11 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Translated-Using: django-rosetta 0.9.0\n"
 
-#: .\rozklad\admin.py:8
+#: .\rozklad\admin.py:8 .\rozklad\admin.py:20
 msgid "General information"
 msgstr ""
 
-#: .\rozklad\admin.py:9 .\rozklad\models.py:7
+#: .\rozklad\admin.py:9 .\rozklad\admin.py:21 .\rozklad\models.py:7
+#: .\rozklad\models.py:18
 msgid "Active"
 msgstr "Активний"
 
@@ -31,7 +32,7 @@ msgstr "Активний"
 msgid "dfgdfgdf"
 msgstr ""
 
-#: .\rozklad\models.py:6
+#: .\rozklad\models.py:6 .\rozklad\models.py:17
 msgid "Name"
 msgstr "Ім'я"
 
@@ -46,6 +47,18 @@ msgstr "Ім'я Транспортного засобу"
 #: .\rozklad\models.py:13
 msgid "Transport Names"
 msgstr "Транспортні Засоби"
+
+#: .\rozklad\models.py:19
+msgid "Place by serial number"
+msgstr "Номер по порядку зупинки"
+
+#: .\rozklad\models.py:24
+msgid "Zupynka Name"
+msgstr "Ім'я Зупинки"
+
+#: .\rozklad\models.py:25
+msgid "Zupynka Names"
+msgstr "Ім'я Зупинок"
 
 #: .\templates\admin\index.html:20
 #, python-format
